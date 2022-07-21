@@ -30,7 +30,7 @@
 
 .page-header {
 	display: flex;
-	border-bottom: 1px solid $border-header-color;
+	border-bottom: 1px solid var(--border-header-color);
 }
 
 .page-header__wrapper {

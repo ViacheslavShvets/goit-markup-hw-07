@@ -9,7 +9,7 @@
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
-	color: $accent-text-color;
+	color: var(--accent-text-color);
 }
 
 .subscribe-form__lable {
@@ -22,7 +22,7 @@
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 16px;
-	background-color: $accent-bg-color;
+	background-color: var(--accent-bg-color);
 	color: rgba(255, 255, 255, 0.6);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -48,7 +48,7 @@
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.06em;
-	color: $accent-text-color;
+	color: var(--accent-text-color);
 	background: $accent-color;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
@@ -57,8 +57,8 @@
 
 	&:hover,
 	&:focus {
-		color: $accent-text-color;
-		background-color: $accent-color;
+		color: var(--accent-text-color);
+		background-color: var(--accent-color);
 		cursor: pointer;
 	}
 }

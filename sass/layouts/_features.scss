@@ -11,7 +11,7 @@
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: $primary-text-color;
+	color: var(--primary-text-color);
 	@extend %removeMargin;
 }
 
@@ -19,12 +19,12 @@
 	min-height: 120px;
 	border-radius: 4px;
 	margin-bottom: 30px;
-	background-color: $secondary-bg-color;
+	background-color: var(--secondary-bg-color);
 	@extend %centeredFlex;
 }
 
 .feature__text {
 	line-height: 1.71;
-	color: $secondary-text-color;
+	color: var(--secondary-text-color);
 	@extend %removeMargin;
 }

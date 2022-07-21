@@ -1,6 +1,6 @@
 /* Секція Герой */
 .hero {
-	background-color: $accent-bg-color;
+	background-color: var(--accent-bg-color);
 	text-align: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
@@ -10,7 +10,7 @@
 	margin-bottom: 30px;
 	max-width: 696px;
 
-	color: $accent-text-color;
+	color: var(--accent-text-color);
 
 	font-weight: 900;
 	font-size: 44px;
@@ -32,9 +32,9 @@
 .hero__button {
 	display: inline-block;
 	padding: 10px 32px;
-	color: $accent-text-color;
-	background-color: $accent-color;
-	border-color: $accent-color;
+	color: var(--accent-color);
+	background-color: var(--accent-color);
+	border-color: accent-color;
 	border-radius: 4px;
 
 	font-family: inherit;
@@ -45,8 +45,8 @@
 
 	&:hover,
 	&:focus {
-		color: $accent-text-color;
-		background-color: $accent-color;
+		color: var(--accent-text-color);
+		background-color: var(--accent-color);
 		cursor: pointer;
 	}
 }

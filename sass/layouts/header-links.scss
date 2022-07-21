@@ -14,7 +14,7 @@
 	padding-bottom: 32px;
 	align-items: center;
 
-	color: $secondary-text-color;
+	color: var(--secondary-text-color);
 
 	font-weight: 500;
 	line-height: 1.14;
@@ -24,8 +24,8 @@
 
 	&:hover,
 	&:focus {
-		color: $accent-color;
-		fill: $accent-color;
+		color: var(--accent-color);
+		fill: var(--accent-color);
 	}
 
 	@extend %a;
