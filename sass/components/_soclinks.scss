@@ -1,0 +1,34 @@
+.soclinks-list {
+	@extend %centeredFlex;
+	@extend %ul;
+}
+
+.soclinks-list__link {
+	@extend %centeredFlex;
+	width: 44px;
+	height: 44px;
+	border: 0;
+	border-radius: 50%;
+	color: $social-links-color;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		background-color: $accent-color;
+		color: $accent-text-color;
+	}
+}
+
+.soclinks-list__link--invers {
+	color: $accent-text-color;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.soclinks-list__icon {
+	fill: currentColor;
+	@extend %centeredFlex;
+}
+
+.soclinks-list__item:not(:last-child) {
+	margin-right: 10px;
+}

@@ -1,0 +1,44 @@
+/* Шапка сторінки */
+
+.header__container {
+	display: flex;
+	align-items: center;
+}
+
+.header {
+	background-color: var(--background-color);
+	outline: 1px solid #ececec;
+}
+
+/* Навігація на інші сторінки */
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav__list {
+	display: flex;
+	margin-left: 93px;
+}
+
+.nav__item {
+	&:not(:last-child) {
+		margin-right: 50px;
+	}
+}
+
+.page-header {
+	display: flex;
+	border-bottom: 1px solid $border-header-color;
+}
+
+.page-header__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-header__nav {
+	display: flex;
+	gap: 93px;
+}
