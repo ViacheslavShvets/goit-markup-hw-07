@@ -1,6 +1,6 @@
 /* Секція Наша команда */
 .team {
-	background-color: $secondary-bg-color;
+	background-color: var(--secondary-bg-color);
 }
 
 .team__title {
@@ -41,5 +41,6 @@
 .team__list {
 	display: flex;
 	gap: 30px;
-	@extend %ul;
+
+	@extend %list;
 }

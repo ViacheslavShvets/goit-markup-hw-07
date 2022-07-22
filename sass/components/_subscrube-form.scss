@@ -48,8 +48,9 @@
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.06em;
+	cursor: pointer;
 	color: var(--accent-text-color);
-	background: $accent-color;
+	background: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border-color: transparent;
@@ -59,7 +60,7 @@
 	&:focus {
 		color: var(--accent-text-color);
 		background-color: var(--accent-color);
-		cursor: pointer;
+	
 	}
 }
 

@@ -2,7 +2,7 @@
 	display: flex;
 	margin-bottom: 50px;
 	justify-content: center;
-	@extend %ul;
+	@extend %list;
 }
 
 .filter__button {

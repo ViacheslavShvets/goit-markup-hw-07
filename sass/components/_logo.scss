@@ -8,14 +8,15 @@
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	@extend %a;
+
+	@extend %link;
 }
 
 .footer__logo {
-	color: $accent-text-color;
+	color: var(--accent-text-color);
 	padding-bottom: 0;
 }
 
 .logo__accent {
-	color: $accent-color;
+	color: var(--accent-color);
 }

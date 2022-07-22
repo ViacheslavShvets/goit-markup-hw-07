@@ -15,8 +15,8 @@
 	padding-left: 0;
 	margin-top: 20px;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	@extend %ul;
-	@extend %a;
+	@extend %list;
+	@extend %link;
 }
 
 .footer-contacts__link {
@@ -28,7 +28,7 @@
 	&:focus {
 		color: var(--accent-color);
 	}
-	@extend %a;
+	@extend %link;
 }
 
 .footer-contacts__adress {
@@ -39,7 +39,7 @@
 	&:hover {
 		color: var(--accent-text-color);
 	}
-	@extend %a;
+	@extend %link;
 }
 
 .join {

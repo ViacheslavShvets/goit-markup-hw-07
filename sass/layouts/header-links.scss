@@ -5,7 +5,7 @@
 	margin-left: auto;
 	align-items: center;
 
-	@extend %ul;
+	@extend %list;
 }
 
 .header-links__link {
@@ -28,7 +28,7 @@
 		fill: var(--accent-color);
 	}
 
-	@extend %a;
+	@extend %link !optional;
 }
 
 .header-links__item {
