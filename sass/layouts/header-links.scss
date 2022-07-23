@@ -5,7 +5,6 @@
 	margin-left: auto;
 	align-items: center;
 
-	@extend %list;
 }
 
 .header-links__link {
@@ -24,11 +23,10 @@
 
 	&:hover,
 	&:focus {
-		color: var(--accent-color);
-		fill: var(--accent-color);
+		
+		fill: var(--timing-variable-but-cl);
 	}
 
-	@extend %link !optional;
 }
 
 .header-links__item {
