@@ -1,20 +1,39 @@
-// utils styles
-@import "./utils/variables";
-@import "./utils/visually-hidden";
-@import "./utils/placeholders";
-@import "./base/shared";
-@import "./components/logo";
-@import "./components/modal-form";
-@import "./components/filter";
-@import "./components/soclinks";
-@import "./components/product-section";
-@import "./components/subscrube-form";
+@import "./utils/vars";
+
+@import "./base/common";
+
+@import "./base/reset";
+
+@import "./components/sections";
+
+@import "./components/container";
+
+@import "./components/modal";
+
+@import "./layouts/social";
+
 @import "./layouts/header";
-@import "./layouts/header-links";
-@import "./layouts/features";
-@import "./layouts/hero";
-@import "./layouts/examples";
-@import "./layouts/nav";
-@import "./layouts/clients";
-@import "./layouts/team";
+
 @import "./layouts/footer";
+
+@import "./layouts/modal";
+
+@import "./layouts/checkbox";
+
+@import "./layouts/button";
+
+@import "./layouts/clients";
+
+@import "./layouts/cards";
+
+@import "./layouts/works";
+
+@import "./layouts/logo";
+
+@import "./layouts/hero";
+
+@import "./layouts/studia";
+
+@import "./layouts/comand";
+
+@import "./layouts/label";
