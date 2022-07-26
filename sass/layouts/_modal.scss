@@ -23,6 +23,8 @@
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
         cursor: pointer;
+
+        transition: 250ms var(--timing-variable);
     }
     
     &__coment::placeholder{
@@ -34,6 +36,11 @@
         letter-spacing: 0.01em;
         
         color: rgba(117, 117, 117, 0.5);
+        transition: 250ms var(--timing-variable);
+    }
+
+    svg{
+        transition: 250ms var(--timing-variable);
     }
     
     
@@ -44,7 +51,7 @@
         outline:var(--accent-color);
         border: 1px solid var(--blue-but-cl);
     
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       
     }
     &__input:focus + svg,
     &__input:hover + svg {
@@ -53,7 +60,7 @@
         
         fill:var(--background-color-icons);
     
-        transition: 250ms var(--timing-variable);
+      
                 }
     
     &__list {
@@ -69,6 +76,8 @@
     
         padding-bottom: 4px;
         padding-top: 10px;
+
+        transition: 250ms var(--timing-variable);
         
     }
     
@@ -93,5 +102,6 @@
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
         cursor: pointer;
+        transition: 250ms var(--timing-variable);
     }
     

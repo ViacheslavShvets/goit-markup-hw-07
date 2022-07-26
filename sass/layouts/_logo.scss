@@ -1,27 +1,19 @@
-.logo {
-    font-family: var(--secondary-font);
-    text-decoration: none;
-    font-style: normal;
-    color: var(--accent-txt-cl);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    margin-right: 40px;
-    
-    }
-.logo-web {color: var(--dark-txt-cl); font-style: normal;}
-
-
-.header .logo {color: var(--accent-txt-cl); 
-    display: block; padding-top: 32px; padding-bottom: 32px;
+.logo-web {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	color: var(--accent-txt-cl);
+	font-size: 26px;
+	line-height: 1.2px;
+	padding-top: 24px;
+	padding-bottom: 25px;
 }
 
-footer.logo {font-family:var(--secondary-font);
-    text-decoration: none;
-    font-style: normal;
-    color: var(--accent-txt-cl);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;}
+.logo {
+	font-family: var(--secondary-font);
+	font-weight: 400;
+	color: var(--black-txt-cl);
+}
 
-.footer span {color: var(--light-txt-cl);}
+.footer span {
+	color: var(--light-txt-cl);
+}
